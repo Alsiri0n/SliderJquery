@@ -1,22 +1,24 @@
 @itemWidth: 140px;
 @radius: 5px;
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #nav {
-	margin: 30px;
-	li {
-		list-style: none;
-		float: left;
+    margin: 30px;
+    
+    li {
+        list-style: none;
+        float:left;
         width: @itemWidth;
+        
         ul {
             display:none;
             li {
                 a {
-                    background: #ccc;
-                    color: #444;
+                    color: #fff;
+                    background: #444;
                     
                     &:hover {
                         background: #999;
@@ -25,16 +27,16 @@
                 }
             }
         }
-		a {
-			text-decoration: none;
-			font-size: 14px;
-			font-family: Arial;
-			color: #fff;
-			background: #444;
-			display: block;
-			margin: 3px;
-			padding: 10px;
-            text-align:center;
+        a {
+            text-decoration: none;
+            font-size: 12px;
+            font-family: arial;
+            color: #fff;
+            background: #444;
+            display: block;
+            margin: 3px;
+            padding: 10px;
+            text-align: center;
             
             &:hover, &.selected {
                 background: #ccc;
@@ -42,6 +44,7 @@
             }
             
             border-radius: @radius;
-		}
-	}
+            
+        }
+    }
 }

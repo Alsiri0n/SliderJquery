@@ -1,29 +1,44 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru-RU">
     <head>
+        <meta charset="UTF-8">
         <!--<link rel="stylesheet" type="text/css" href="styles/styles.css"> -->
-        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <link rel="stylesheet/less" type="text/css" href="styles/main.less">
+        <script type="text/javascript" src="js/less.min.js"></script>
         <script type="text/javascript" src="js/jquery.js"></script>
+
         <script type="text/javascript" src="js/parallax.js"></script>
+        <title>Menu</title>
     </head>
     <body>
-        <div class="top">
-            <div class="viewport">
-                <ul class="slidewrapper" data-current="0">
-                    <li class="slide">
-                        <img src="images/carousel_i2.jpg"/> Slide1
-                    </li>
-                    <li class="slide second">
-                        <img src="images/carousel_i3.jpg"/> Slide2
-                    </li>
-                    <li class="slide third">
-                        <img src="images/carousel_i4.jpg"/> Slide3
-                    </li>
+        <ul id="nav">
+            <li><a href="#">Element 1</a>
+                <ul>
+                    <li><a href="#">Sub-Element 1</a></li>
+                    <li><a href="#">Sub-Element 2</a></li>
+                    <li><a href="#">Sub-Element 3</a></li>
+                    <li><a href="#">Sub-Element 4</a></li>
+                    <li><a href="#">Sub-Element 5</a></li>
                 </ul>
-            </div>
-            <div class="logo">
-                <img src="images/carousel_i2.jpg"/>
-            </div>
-        </div>
+            </li>
+            <li><a href="#">Element 2</a>                
+                   <ul>
+                    <li><a href="#">Sub-Element 1</a></li>
+                    <li><a href="#">Sub-Element 2</a></li>
+                    <li><a href="#">Sub-Element 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Element 3</a>
+                <ul>
+                    <li><a href="#">Sub-Element 1</a></li>
+                    <li><a href="#">Sub-Element 2</a></li>
+                    <li><a href="#">Sub-Element 3</a></li>
+                    <li><a href="#">Sub-Element 4</a></li>
+                </ul>
+            
+            </li>
+            <li><a href="#">Element 4</a></li>
+            <li><a href="#">Element 5</a></li>
+        </ul>
     </body>
 </html>
